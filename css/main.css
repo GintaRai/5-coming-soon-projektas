@@ -21,58 +21,58 @@ body * {
         display: inline-block;
         width: 500px;
         margin: 40px calc((100% - 500px) / 2) 20px;  
-        
+        text-align: center;
     }
         #hero .logo {
-            display: inline-block;
+            
         }
+
             #hero .logo > img {
                 max-width: 20px;
                 
             }
 
         #hero h1 {
-            display: inline-block;
             font-size: 40px;
             text-transform: uppercase;
         }
 
         #hero p {
-            display: inline-block;
             color: #BDC5CC;
         }
 
         #hero .clock {
             display: inline-block;
             color: white;
+            width: 100%;
         }
 
             #hero .clock > .clock-block {
                 display: inline-block;
+                width: 25%;
+                float: left;
             }
 
                 #hero .clock > .clock-block > .value {
-                    display: inline-block;
+                    
                 }
 
                 #hero .clock > .clock-block > .title {
-                    display: inline-block;
+                    
                 }
 
         #hero form {
-            display: inline-block;
             color: white;
         }
 
             #hero form > input {
-                display: inline-block;
+                width: 100%;
             }
 
             #hero form > .btn {
-                display: inline-block;
+                
             }
 
         #hero .mouse {
-            display: inline-block;
             color: white;
         }
