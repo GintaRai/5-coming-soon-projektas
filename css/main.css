@@ -35,12 +35,30 @@ body * {
 
         }
 
-            #hero 
+            #hero .clock .clock-block {
+
+            }
+
+                #hero .clock .clock-block .value {
+
+                }
+
+                #hero .clock .clock-block .title {
+
+                }
 
         #hero form {
 
         }
 
+            #hero form input {
+
+            }
+
+            #hero form .btn {
+
+            }
+            
         #hero .mouse {
 
         }
