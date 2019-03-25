@@ -5,3 +5,42 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
 }
+
+    body {
+
+    }
+
+    .hero-background {
+        background-image: url(../img/fonas\ tiltas.png);
+    }
+
+    .hero-content {
+        display: inline-block;
+        width: 500px;
+        margin: 40px calc((100% - 500px) / 2) 20px;  
+    }
+        #hero .logo {
+
+        }
+
+        #hero h1 {
+
+        }
+
+        #hero p {
+
+        }
+
+        #hero .clock {
+
+        }
+
+            #hero 
+
+        #hero form {
+
+        }
+
+        #hero .mouse {
+
+        }
