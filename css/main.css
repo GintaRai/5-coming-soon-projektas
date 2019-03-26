@@ -30,8 +30,10 @@ body * {
         }
 
         #hero .logo {
+            display: inline-block;
             background-image: url(../img/zalia\ ikona.png);
             width: 40px;
+            height: 40px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -48,11 +50,12 @@ body * {
             display: inline-block;
             color: #BDC5CC;
             margin: 0 0 20px;
-            font-size: 16px;
+            font-size: 14px;
             line-height: 20px;
         }
 
         #hero .clock {
+            display: inline-block;
             color: white;
             width: 100%;
             margin: 40px 0 60px 0;
@@ -73,7 +76,9 @@ body * {
                 }
 
         #hero form {
+            display: inline-block;
             color: white;
+            margin: 0 0 20px;
         }
 
             #hero form > input {
@@ -91,6 +96,10 @@ body * {
                 color: white;
             }
 
+            #hero form > input::focus {
+                cursor: pointer;
+            }
+
             #hero form > .btn {
                 background-color: #EA1E63;
                 color: white;
@@ -103,3 +112,5 @@ body * {
         #hero .mouse {
             color: white;
         }
+
+        
