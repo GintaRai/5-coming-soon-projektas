@@ -7,7 +7,7 @@ body * {
 }
 
     body {
-
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .hero-background {
@@ -23,28 +23,39 @@ body * {
         margin: 40px calc((100% - 500px) / 2) 20px;  
         text-align: center;
     }
-        #hero .logo {
-            
+
+        #hero .hero-content * {
+            display: inline-block;
+            width: 100%
         }
 
-            #hero .logo > img {
-                max-width: 20px;
-                
-            }
+        #hero .logo {
+            background-image: url(../img/zalia\ ikona.png);
+            width: 40px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
 
         #hero h1 {
-            font-size: 40px;
             text-transform: uppercase;
+            margin: 40px 0 20px;
+            font-size: 40px;
+            line-height: 40px;
         }
 
         #hero p {
+            display: inline-block;
             color: #BDC5CC;
+            margin: 0 0 20px;
+            font-size: 16px;
+            line-height: 20px;
         }
 
         #hero .clock {
-            display: inline-block;
             color: white;
             width: 100%;
+            margin: 40px 0 60px 0;
         }
 
             #hero .clock > .clock-block {
@@ -54,11 +65,11 @@ body * {
             }
 
                 #hero .clock > .clock-block > .value {
-                    
+                    font-size: 36px;
                 }
 
                 #hero .clock > .clock-block > .title {
-                    
+                    font-size: 20px;
                 }
 
         #hero form {
@@ -66,11 +77,27 @@ body * {
         }
 
             #hero form > input {
-                width: 100%;
+                width: 90%;
+                margin-bottom: 20px;
+                padding: 10px 0;
+                font-size: 20px;
+                line-height: 20px;
+                border: none;
+                border-bottom: 2px solid #ffffff;
+                background: transparent;
+            }
+
+            #hero form > input::placeholder {
+                color: white;
             }
 
             #hero form > .btn {
-                
+                background-color: #EA1E63;
+                color: white;
+                padding: 10px 15px;
+                width: 180px;
+                display: inline-block;
+                border: 4px solid red;
             }
 
         #hero .mouse {
