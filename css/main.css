@@ -135,7 +135,9 @@ body * {
                 }
                 #content p {
                     margin: 0 0 30px;
+                    font-size: 14px;
                     line-height: 30px;
+                    color: #C2C5C8;
                 }
             #content .container > .right {
                 display: inline-block;
@@ -145,7 +147,7 @@ body * {
             }
                 
     footer {
-
+        background-color: #00ABF7;
     }
         footer > .social {
 
