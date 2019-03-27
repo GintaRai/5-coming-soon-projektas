@@ -50,7 +50,7 @@ body * {
             display: inline-block;
             color: #BDC5CC;
             margin: 0 0 20px;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 20px;
         }
 
@@ -113,4 +113,44 @@ body * {
             color: white;
         }
 
-        
+    #content {
+        display: inline-block;
+        width: 100%;
+    }
+
+        #content .container {
+            display: inline-block;
+            width: 800px;
+            margin: 40px calc((100% - 800px) / 2) 20px;
+        }
+
+            #content .container > .left {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+                #content h3 {
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+                #content p {
+                    margin: 0 0 30px;
+                    line-height: 30px;
+                }
+            #content .container > .right {
+                display: inline-block;
+                width: 50%;
+                float: left;
+                padding-left: 10px;
+            }
+                
+    footer {
+
+    }
+        footer > .social {
+
+        }
+
+        footer > .class {
+            
+        }
