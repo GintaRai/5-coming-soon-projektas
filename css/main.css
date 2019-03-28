@@ -172,7 +172,7 @@ body * {
                 #content .container > .right > .form > .message {
                     width: 100%
                 }
-                    .message input {
+                    #message {
                         width: 100%;
                         margin: 0 0 20px;
                         border: none;
@@ -180,6 +180,14 @@ body * {
                         font-size: 14px;
                         line-height: 40px;
                     }
+                    /* .message input {
+                        width: 100%;
+                        margin: 0 0 20px;
+                        border: none;
+                        border-bottom: 1px solid #999;
+                        font-size: 14px;
+                        line-height: 40px;
+                    } */
     footer {
         background-color: #00ABF7;
     }
