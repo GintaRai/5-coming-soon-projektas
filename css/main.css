@@ -109,8 +109,8 @@ body * {
                 border: 4px solid red;
             }
 
-        #hero .mouse {
-            color: white;
+        #hero .mouse-container {
+            margin-top: 40px;
         }
 
     #content {
@@ -145,14 +145,20 @@ body * {
                 float: left;
                 padding-left: 10px;
             }
-                
+                #content .container > .right > .form {
+                    display: inline-block;
+                    color:#C2C5C8;
+                    margin: 0 0 20px;
+
+                }
+
     footer {
         background-color: #00ABF7;
     }
-        footer > .social {
+        div .social {
 
         }
 
-        footer > .class {
+        div .class {
             
         }
