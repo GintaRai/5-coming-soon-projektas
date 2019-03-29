@@ -248,3 +248,27 @@ body * {
                 background-repeat: no-repeat;
                 background-size: contain;
             }
+            
+            footer > .ikon-legal > .copy-text {
+                color: #81ddff;
+            }
+            footer > .ikon-legal > .copy-text > a {
+                color: #FFF;
+                text-decoration: none;
+            }
+                footer > .ikon-legal > .copy-text > a:hover {
+                    color:  #81ddff;
+                }
+            footer > .ikon-legal > p {
+                color: #c9f0ff;
+            }
+            
+            /* .copy-text a,
+            .footer-intro a {
+                color: #fff;
+            }
+            .copy-text,
+            .copy-text a:hover,
+            .footer-intro a:hover {
+                color: #81ddff;*/
+            
