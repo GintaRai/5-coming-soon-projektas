@@ -165,6 +165,10 @@ body * {
                         font-size: 14px;
                         line-height: 40px;
                     }
+
+                    .contacts input:hover {
+                        background-color: #00ABF7;
+                    }
                         .contacts input.email {
                             margin-left: 8%;
                         }
@@ -226,4 +230,21 @@ body * {
                 color: #00ABF7;
                 background-color: white;
                 border-radius: 50%;
+            }
+        footer > .ikon-legal {
+            display: inline-block;
+            width: 800px;
+            margin: 0 calc( (100% - 800px) / 2 ) 40px
+        }
+            footer > .ikon-legal > a.logo {
+                display: inline-block;
+                width: 100%;
+                background-image: url(../img/ikona\ matrox.png);
+                height: 40px;
+                padding: 30px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
             }
