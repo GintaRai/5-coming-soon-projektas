@@ -170,8 +170,9 @@ body * {
                         }
 
                 #content .container > .right > .form > .message {
-                    width: 100%
+                    width: 100%;
                 }
+
                     #message {
                         width: 100%;
                         margin: 0 0 20px;
@@ -179,6 +180,7 @@ body * {
                         border-bottom: 1px solid #999;
                         font-size: 14px;
                         line-height: 40px;
+                        resize: none;
                     }
                     /* .message input {
                         width: 100%;
@@ -201,12 +203,27 @@ body * {
                 }
     footer {
         background-color: #00ABF7;
+        text-align: center;
     }
-        footer .social {
+        footer > .social {
             display: inline-block;
-            
+            width: 800px;
+            margin: 20px calc((100% - 800px) / 2);
+            padding-bottom: 20px;
+            border-bottom: 1px solid white;
         }
-
-        div .class {
-            
-        }
+            footer > .social > a {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                margin: 0 10px;
+                text-decoration: none;
+                color: #FFF;
+                font-size: 24px;
+            }
+            footer > .social > a:hover {
+                color: #00ABF7;
+                background-color: white;
+                border-radius: 50%;
+            }
